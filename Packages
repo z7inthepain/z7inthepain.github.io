@@ -1,0 +1,32 @@
+Package: com.zainkh.versionspoofer
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: zainkh
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/VersionSpoofer_0.1.0_rootless.deb
+Size: 41730
+MD5sum: 01962d9b2170a1b3bbf04d81bddbe4a2
+SHA1: b5042f48556a8b727f8af30a2a93724abbb5ac96
+SHA256: 68dbd67277bf50a0e7de5a493df2809085775bacab5724cc6a046b88beb899cc
+Section: Tweaks
+Description: Per-app spoofing of the app's own version, the iOS version, and other apps' versions.
+Author: zainkh
+Name: VersionSpoofer
+
+Package: com.zainkh.versionspoofer
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: zainkh
+Installed-Size: 456
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/VersionSpoofer_0.1.0_roothide.deb
+Size: 39478
+MD5sum: 8efbba6c7541fca0fd15a4caef6de319
+SHA1: 8a1898826921afb16eec80a7b922cefc560863dd
+SHA256: 30285769c15668d29c7d0736d43ab42afc6b8336da7dc269b9f5c75eef330bd3
+Section: Tweaks
+Description: Per-app spoofing of the app's own version, the iOS version, and other apps' versions.
+Author: zainkh
+Name: VersionSpoofer
+

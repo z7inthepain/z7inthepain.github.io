@@ -1,0 +1,33 @@
+Architectures: iphoneos-arm64 iphoneos-arm64e
+Codename: ios
+Components: main
+Date: Tue, 27 Oct 2026 01:26:16 +0000
+Description: Zainkh's tweaks
+Label: Zainkh Repo
+Origin: Zainkh Repo
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 8f180cc2e3b9bb922ee0574165b37ea6             1071 Packages
+ 6dbb06f4db552b111ccce482a2f1ece0              583 Packages.bz2
+ 9e6e6f8eb1acd5b7b0ce2713ca5bd28c              500 Packages.gz
+ fd7678231bbabef30a00aefa7bedb87f              560 Packages.xz
+ 0abe7f07a9573bb8c08129923d08b611              492 Packages.zst
+SHA1:
+ 8279e6cfcd5130c1df9571b76baa784ca4f54d32             1071 Packages
+ d333e4763de94e5bf588adc94ababa04b9e89044              583 Packages.bz2
+ 69462626534c6b3493e555f9a496587de51f464b              500 Packages.gz
+ 2a3bd7d09fe0148091e1f4303d45d8b62debf931              560 Packages.xz
+ 1397509800ee27720708bb3bae37b870581f4f6a              492 Packages.zst
+SHA256:
+ d1f5cc9e70857c771ebcf27ffdef8e283d35c5a8ac28ecb941df249b6811e7d3             1071 Packages
+ 8374aa5088b7d8df7d37eed6d77527e96f6c16d35cd12af1a9ae397026a1435a              583 Packages.bz2
+ 12d30659075daf74e1456a89f10522bbb19c39e78cec11886cf9d6f83ff4de17              500 Packages.gz
+ 95f6cfa4dbfe4aa82f7944f59c70e5c7528e65a3b969402d2c24011970603f6d              560 Packages.xz
+ 06eae512117ae59544546707bfc6d56fb70bef2e16a137eb87e7d0775f1b3c5e              492 Packages.zst
+SHA512:
+ 3f98f171cedcff3f8a3e80007d236cac9369c4a732a2606abdaf6551223f86b7d69431d8c9f87227fc0723ab4ee8492e77b17be8845844a0d425eb62ebb016ce             1071 Packages
+ e57a8f5aaad5c1134b8741af7d599ef9dc0f5b713b4f54831a79fa6672f8a70fc413089c215178b5cbc219522746e894159437e0b7f7d5091de2955cf9371464              583 Packages.bz2
+ 59b3ebc34ae050477b653a3791ca409faaf6fbc6259a54373eb97038c2dd08e6a4ce9bb98a0b961e0dd5c8d1b7f8f7829a7dbbb7096f1e5bf1c85b4b17b157fe              500 Packages.gz
+ d84fa6aec0778acba6ece9c4136bf175dc99548a342897427ab3dd1baeda47585ef6876419bc4ecfbbaa6b087321c8dac3e534bfe48bae525d10f83dec9f6423              560 Packages.xz
+ 41a42e9978469450a2cc2e703b0ced396b28b19a6d979724d45e846696a01f1e78405a358d736be45e1fd25657f487dcd19d18c7bd126c8bad66577587b2390f              492 Packages.zst
