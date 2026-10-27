@@ -1,6 +1,77 @@
-<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>z7in Repo</title></head>
-<body style="font-family:-apple-system,sans-serif;max-width:600px;margin:40px auto;padding:0 16px">
-<img src="CydiaIcon.png" width="80" style="border-radius:18px"><h1>z7in Repo</h1>
-<p>Add this source in Sileo or Zebra:</p><p><code>https://z7inthepain.github.io/</code></p>
-<p><a href="sileo://source/https://z7inthepain.github.io/">Add to Sileo</a> &middot; <a href="zbra://sources/add/https://z7inthepain.github.io/">Add to Zebra</a></p>
-</body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#0a0000">
+<title>z7in Repo</title>
+<link rel="apple-touch-icon" href="icon-180.png">
+<style>
+:root{--red:#ff1f3d;--red2:#b0001a;--txt:#f5f5f5;--mut:#a8a0a0}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:#050000}
+body{min-height:100vh;overflow-wrap:anywhere;color:var(--txt);font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Inter,sans-serif;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% -10%,rgba(255,31,61,.45),transparent 70%),
+    radial-gradient(ellipse 60% 40% at 100% 100%,rgba(176,0,26,.35),transparent 70%),
+    radial-gradient(ellipse 50% 35% at 0% 80%,rgba(255,31,61,.18),transparent 70%),
+    #050000;
+  overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,31,61,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(255,31,61,.07) 1px,transparent 1px);
+  background-size:42px 42px;mask-image:radial-gradient(ellipse at center,#000 30%,transparent 75%);-webkit-mask-image:radial-gradient(ellipse at center,#000 30%,transparent 75%)}
+.glow{position:fixed;width:420px;height:420px;border-radius:50%;filter:blur(90px);background:var(--red);opacity:.22;top:30%;left:50%;transform:translate(-50%,-50%);animation:pulse 6s ease-in-out infinite;pointer-events:none}
+@keyframes pulse{50%{opacity:.38;transform:translate(-50%,-50%) scale(1.15)}}
+main{position:relative;max-width:560px;margin:0 auto;padding:64px 20px 48px;text-align:center}
+.logo{width:104px;height:104px;border-radius:24px;box-shadow:0 0 0 2px rgba(255,31,61,.6),0 0 40px rgba(255,31,61,.55);animation:float 4s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-6px)}}
+h1{margin-top:22px;font-size:46px;font-weight:900;letter-spacing:-1px;
+  background:linear-gradient(180deg,#fff 20%,var(--red) 120%);-webkit-background-clip:text;background-clip:text;color:transparent;
+  text-shadow:0 0 30px rgba(255,31,61,.35)}
+.tag{margin-top:6px;color:var(--mut);font-size:15px;letter-spacing:3px;text-transform:uppercase}
+.card{margin-top:30px;padding:20px;border-radius:20px;background:rgba(20,0,4,.6);border:1px solid rgba(255,31,61,.28);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 10px 40px rgba(0,0,0,.6)}
+.lbl{font-size:12px;color:var(--mut);letter-spacing:2px;text-transform:uppercase}
+.url{display:flex;gap:8px;margin-top:10px}
+.url code{flex:1;min-width:0;padding:12px;border-radius:12px;background:#000;border:1px solid #2a0008;color:#fff;font:14px ui-monospace,Menlo,monospace;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;text-align:left}
+.url button{padding:0 14px;border-radius:12px;border:1px solid rgba(255,31,61,.5);background:#120003;color:var(--red);font-weight:700;cursor:pointer}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:14px}
+.btn{display:block;padding:14px;border-radius:14px;font-weight:800;font-size:16px;text-decoration:none;color:#fff;transition:transform .15s}
+.btn:active{transform:scale(.97)}
+.sileo{background:linear-gradient(135deg,var(--red),var(--red2));box-shadow:0 6px 24px rgba(255,31,61,.45)}
+.zebra{background:#140004;border:1px solid rgba(255,31,61,.45)}
+h2{margin:36px 0 12px;font-size:13px;color:var(--mut);letter-spacing:3px;text-transform:uppercase;text-align:left}
+.pkg{display:flex;align-items:center;gap:14px;text-align:left;padding:14px;border-radius:16px;background:rgba(20,0,4,.6);border:1px solid rgba(255,31,61,.2)}
+.pkg img{width:52px;height:52px;border-radius:12px}
+.pkg b{font-size:17px}.pkg p{color:var(--mut);font-size:13px;margin-top:2px}
+.pill{margin-left:auto;padding:4px 10px;border-radius:99px;font-size:12px;font-weight:700;color:var(--red);border:1px solid rgba(255,31,61,.5)}
+footer{margin-top:40px;color:#5a4a4a;font-size:12px}
+</style>
+</head>
+<body>
+<div class="glow"></div>
+<main>
+  <img class="logo" src="icon-180.png" alt="z7in">
+  <h1>z7in Repo</h1>
+  <div class="tag">Tweaks for RootHide &amp; Rootless</div>
+
+  <div class="card">
+    <div class="lbl">Source URL</div>
+    <div class="url"><code id="u">https://z7inthepain.github.io/</code><button onclick="navigator.clipboard.writeText(document.getElementById('u').textContent);this.textContent='Copied'">Copy</button></div>
+    <div class="btns">
+      <a class="btn sileo" href="sileo://source/https://z7inthepain.github.io/">Add to Sileo</a>
+      <a class="btn zebra" href="zbra://sources/add/https://z7inthepain.github.io/">Add to Zebra</a>
+    </div>
+  </div>
+
+  <h2>Packages</h2>
+  <div class="pkg">
+    <img src="vs-icon.png" alt="">
+    <div><b>VersionSpoofer</b><p>Per-app app, iOS &amp; other-app version spoofing</p></div>
+    <span class="pill">0.1.0</span>
+  </div>
+
+  <footer>&copy; z7in</footer>
+</main>
+</body>
+</html>
