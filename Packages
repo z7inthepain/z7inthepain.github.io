@@ -1,3 +1,19 @@
+Package: com.zainkh.usbcam
+Version: 0.1.0
+Architecture: iphoneos-arm64e
+Maintainer: zainkh
+Installed-Size: 192
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: debs/USBCam_0.1.0_roothide.deb
+Size: 15156
+MD5sum: 38fbf3b2e4d78782e6a303bf20f9efdb
+SHA1: dbd2dc33460496337f00539d39334e774a49b725
+SHA256: d5a11035dbd321f258f9952d0fa94f04d84ac55fc99eb1a24505efdd5f795183
+Section: Tweaks
+Description: Replaces the iPhone camera feed with frames streamed from a computer over USB.
+Author: zainkh
+Name: USBCam
+
 Package: com.zainkh.versionspoofer
 Version: 0.1.0
 Architecture: iphoneos-arm64
